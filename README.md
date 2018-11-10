@@ -7,6 +7,13 @@ It is not another implementation of core same-named functions. Packet internally
 #### Implemented functions
 + array_unique
 
+#### Installation
+
+Use composer:
+````
+comsposer require jizuscreed/callbackable-array-functions 
+````
+
 #### Using
 
 ````
@@ -20,13 +27,6 @@ $array = ArrayUnique::run($array, function($arrayValue){
     // some logic, that returns string representation of one array value. Be carefull with it because array elements will be checked for differences by result of this callback
 });
 
-
-````
-#### Installation
-
-Use composer:
-````
-comsposer require jizuscreed/callbackable-array-functions 
 ````
 
 #### License
