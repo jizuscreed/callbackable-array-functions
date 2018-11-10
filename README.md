@@ -17,7 +17,7 @@ use jizuscreed\CallbackableArrayFunctions\ArrayUnique;
 $array = [...];
 
 $array = ArrayUnique::run($array, function($arrayValue){
-    // some logic, that returns string representation of array one value. Be carefull with it because array elements wil be checked for differences by result of this callback
+    // some logic, that returns string representation of array one value. Be carefull with it because array elements will be checked for differences by result of this callback
 });
 
 
