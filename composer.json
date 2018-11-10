@@ -1,0 +1,23 @@
+{
+  "name": "jizuscreed/callbackable-array-functions",
+  "description": "Some wrappers for php array functions, which provides callback-ability to them",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Konstantin Kozin",
+      "email": "jizuscreed@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jizuscreed\\CallbackableArrayFunctions\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
