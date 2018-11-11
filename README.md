@@ -11,7 +11,7 @@ It is not another implementation of core same-named functions. Packet internally
 
 Use composer:
 ````
-comsposer require jizuscreed/callbackable-array-functions 
+composer require jizuscreed/callbackable-array-functions 
 ````
 
 #### Using
@@ -25,9 +25,10 @@ $array = [...];
 
 $array = ArrayUnique::run($array, function($arrayValue){
     // some logic, that returns string representation of one array value. Be carefull with it because array elements will be checked for differences by result of this callback
+    return $arrayValue->title;
 });
 
 ````
 
 #### License
-MIT, so feel free to do whatever with this code
+MIT, so feel free to do whatever you want with this code
